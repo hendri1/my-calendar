@@ -1,0 +1,34 @@
+{
+  "name": "my-calendar",
+  "version": "1.0.0",
+  "description": "Personal Calendar API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js --exec babel-node --presets babel-preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hendri1/my-calendar.git"
+  },
+  "author": "hendrifaisal18@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hendri1/my-calendar/issues"
+  },
+  "homepage": "https://github.com/hendri1/my-calendar#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.11"
+  }
+}
