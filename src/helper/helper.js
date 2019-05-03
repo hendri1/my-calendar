@@ -1,5 +1,3 @@
-import jwt from 'jsonwebtoken';
-
 class Helper {
 
     objectHaveSameKeys(obj1, obj2) {       

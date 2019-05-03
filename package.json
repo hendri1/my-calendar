@@ -4,7 +4,7 @@
   "description": "Personal Calendar API",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha app.test.js",
     "dev": "nodemon app.js --exec babel-node --presets babel-preset-env"
   },
   "repository": {
@@ -29,6 +29,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.5",
     "babel-preset-env": "^1.7.0",
+    "mocha": "^6.1.4",
     "nodemon": "^1.18.11"
   }
 }
